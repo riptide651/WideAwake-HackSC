@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189401511BF7CB0600FCF46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189401501BF7CB0600FCF46E /* AppDelegate.swift */; };
+		189401531BF7CB0600FCF46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189401521BF7CB0600FCF46E /* ViewController.swift */; };
+		189401561BF7CB0600FCF46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189401541BF7CB0600FCF46E /* Main.storyboard */; };
+		189401581BF7CB0600FCF46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189401571BF7CB0600FCF46E /* Assets.xcassets */; };
+		1894015B1BF7CB0600FCF46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189401591BF7CB0600FCF46E /* LaunchScreen.storyboard */; };
+		189401661BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189401651BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift */; };
+		189401711BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189401701BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		189401621BF7CB0600FCF46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189401451BF7CB0600FCF46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1894014C1BF7CB0600FCF46E;
+			remoteInfo = "WideAwake Puzzle";
+		};
+		1894016D1BF7CB0600FCF46E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 189401451BF7CB0600FCF46E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1894014C1BF7CB0600FCF46E;
+			remoteInfo = "WideAwake Puzzle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1894014D1BF7CB0600FCF46E /* WideAwake Puzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WideAwake Puzzle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189401501BF7CB0600FCF46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		189401521BF7CB0600FCF46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		189401551BF7CB0600FCF46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		189401571BF7CB0600FCF46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1894015A1BF7CB0600FCF46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1894015C1BF7CB0600FCF46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		189401611BF7CB0600FCF46E /* WideAwake PuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WideAwake PuzzleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189401651BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideAwake_PuzzleTests.swift; sourceTree = "<group>"; };
+		189401671BF7CB0600FCF46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1894016C1BF7CB0600FCF46E /* WideAwake PuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WideAwake PuzzleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		189401701BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideAwake_PuzzleUITests.swift; sourceTree = "<group>"; };
+		189401721BF7CB0600FCF46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1894014A1BF7CB0600FCF46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894015E1BF7CB0600FCF46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189401691BF7CB0600FCF46E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189401441BF7CB0600FCF46E = {
+			isa = PBXGroup;
+			children = (
+				1894014F1BF7CB0600FCF46E /* WideAwake Puzzle */,
+				189401641BF7CB0600FCF46E /* WideAwake PuzzleTests */,
+				1894016F1BF7CB0600FCF46E /* WideAwake PuzzleUITests */,
+				1894014E1BF7CB0600FCF46E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1894014E1BF7CB0600FCF46E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1894014D1BF7CB0600FCF46E /* WideAwake Puzzle.app */,
+				189401611BF7CB0600FCF46E /* WideAwake PuzzleTests.xctest */,
+				1894016C1BF7CB0600FCF46E /* WideAwake PuzzleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1894014F1BF7CB0600FCF46E /* WideAwake Puzzle */ = {
+			isa = PBXGroup;
+			children = (
+				189401501BF7CB0600FCF46E /* AppDelegate.swift */,
+				189401521BF7CB0600FCF46E /* ViewController.swift */,
+				189401541BF7CB0600FCF46E /* Main.storyboard */,
+				189401571BF7CB0600FCF46E /* Assets.xcassets */,
+				189401591BF7CB0600FCF46E /* LaunchScreen.storyboard */,
+				1894015C1BF7CB0600FCF46E /* Info.plist */,
+			);
+			path = "WideAwake Puzzle";
+			sourceTree = "<group>";
+		};
+		189401641BF7CB0600FCF46E /* WideAwake PuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				189401651BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift */,
+				189401671BF7CB0600FCF46E /* Info.plist */,
+			);
+			path = "WideAwake PuzzleTests";
+			sourceTree = "<group>";
+		};
+		1894016F1BF7CB0600FCF46E /* WideAwake PuzzleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189401701BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift */,
+				189401721BF7CB0600FCF46E /* Info.plist */,
+			);
+			path = "WideAwake PuzzleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1894014C1BF7CB0600FCF46E /* WideAwake Puzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189401751BF7CB0600FCF46E /* Build configuration list for PBXNativeTarget "WideAwake Puzzle" */;
+			buildPhases = (
+				189401491BF7CB0600FCF46E /* Sources */,
+				1894014A1BF7CB0600FCF46E /* Frameworks */,
+				1894014B1BF7CB0600FCF46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WideAwake Puzzle";
+			productName = "WideAwake Puzzle";
+			productReference = 1894014D1BF7CB0600FCF46E /* WideAwake Puzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189401601BF7CB0600FCF46E /* WideAwake PuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189401781BF7CB0600FCF46E /* Build configuration list for PBXNativeTarget "WideAwake PuzzleTests" */;
+			buildPhases = (
+				1894015D1BF7CB0600FCF46E /* Sources */,
+				1894015E1BF7CB0600FCF46E /* Frameworks */,
+				1894015F1BF7CB0600FCF46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189401631BF7CB0600FCF46E /* PBXTargetDependency */,
+			);
+			name = "WideAwake PuzzleTests";
+			productName = "WideAwake PuzzleTests";
+			productReference = 189401611BF7CB0600FCF46E /* WideAwake PuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1894016B1BF7CB0600FCF46E /* WideAwake PuzzleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1894017B1BF7CB0600FCF46E /* Build configuration list for PBXNativeTarget "WideAwake PuzzleUITests" */;
+			buildPhases = (
+				189401681BF7CB0600FCF46E /* Sources */,
+				189401691BF7CB0600FCF46E /* Frameworks */,
+				1894016A1BF7CB0600FCF46E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1894016E1BF7CB0600FCF46E /* PBXTargetDependency */,
+			);
+			name = "WideAwake PuzzleUITests";
+			productName = "WideAwake PuzzleUITests";
+			productReference = 1894016C1BF7CB0600FCF46E /* WideAwake PuzzleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		189401451BF7CB0600FCF46E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Mark Yampolsky";
+				TargetAttributes = {
+					1894014C1BF7CB0600FCF46E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B42MX7GGGY;
+					};
+					189401601BF7CB0600FCF46E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B42MX7GGGY;
+						TestTargetID = 1894014C1BF7CB0600FCF46E;
+					};
+					1894016B1BF7CB0600FCF46E = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = B42MX7GGGY;
+						TestTargetID = 1894014C1BF7CB0600FCF46E;
+					};
+				};
+			};
+			buildConfigurationList = 189401481BF7CB0600FCF46E /* Build configuration list for PBXProject "WideAwake Puzzle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 189401441BF7CB0600FCF46E;
+			productRefGroup = 1894014E1BF7CB0600FCF46E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1894014C1BF7CB0600FCF46E /* WideAwake Puzzle */,
+				189401601BF7CB0600FCF46E /* WideAwake PuzzleTests */,
+				1894016B1BF7CB0600FCF46E /* WideAwake PuzzleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1894014B1BF7CB0600FCF46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1894015B1BF7CB0600FCF46E /* LaunchScreen.storyboard in Resources */,
+				189401581BF7CB0600FCF46E /* Assets.xcassets in Resources */,
+				189401561BF7CB0600FCF46E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894015F1BF7CB0600FCF46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894016A1BF7CB0600FCF46E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189401491BF7CB0600FCF46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189401531BF7CB0600FCF46E /* ViewController.swift in Sources */,
+				189401511BF7CB0600FCF46E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1894015D1BF7CB0600FCF46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189401661BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189401681BF7CB0600FCF46E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189401711BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		189401631BF7CB0600FCF46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1894014C1BF7CB0600FCF46E /* WideAwake Puzzle */;
+			targetProxy = 189401621BF7CB0600FCF46E /* PBXContainerItemProxy */;
+		};
+		1894016E1BF7CB0600FCF46E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1894014C1BF7CB0600FCF46E /* WideAwake Puzzle */;
+			targetProxy = 1894016D1BF7CB0600FCF46E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		189401541BF7CB0600FCF46E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				189401551BF7CB0600FCF46E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		189401591BF7CB0600FCF46E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1894015A1BF7CB0600FCF46E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		189401731BF7CB0600FCF46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189401741BF7CB0600FCF46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		189401761BF7CB0600FCF46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WideAwake Puzzle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WideAwake-Puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		189401771BF7CB0600FCF46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "WideAwake Puzzle/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WideAwake-Puzzle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		189401791BF7CB0600FCF46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WideAwake PuzzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WideAwake-PuzzleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WideAwake Puzzle.app/WideAwake Puzzle";
+			};
+			name = Debug;
+		};
+		1894017A1BF7CB0600FCF46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "WideAwake PuzzleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WideAwake-PuzzleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WideAwake Puzzle.app/WideAwake Puzzle";
+			};
+			name = Release;
+		};
+		1894017C1BF7CB0600FCF46E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WideAwake PuzzleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WideAwake-PuzzleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WideAwake Puzzle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1894017D1BF7CB0600FCF46E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "WideAwake PuzzleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.WideAwake-PuzzleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "WideAwake Puzzle";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		189401481BF7CB0600FCF46E /* Build configuration list for PBXProject "WideAwake Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189401731BF7CB0600FCF46E /* Debug */,
+				189401741BF7CB0600FCF46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189401751BF7CB0600FCF46E /* Build configuration list for PBXNativeTarget "WideAwake Puzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189401761BF7CB0600FCF46E /* Debug */,
+				189401771BF7CB0600FCF46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		189401781BF7CB0600FCF46E /* Build configuration list for PBXNativeTarget "WideAwake PuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189401791BF7CB0600FCF46E /* Debug */,
+				1894017A1BF7CB0600FCF46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1894017B1BF7CB0600FCF46E /* Build configuration list for PBXNativeTarget "WideAwake PuzzleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1894017C1BF7CB0600FCF46E /* Debug */,
+				1894017D1BF7CB0600FCF46E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 189401451BF7CB0600FCF46E /* Project object */;
+}
