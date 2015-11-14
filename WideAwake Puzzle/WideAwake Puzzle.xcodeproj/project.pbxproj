@@ -14,6 +14,7 @@
 		1894015B1BF7CB0600FCF46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 189401591BF7CB0600FCF46E /* LaunchScreen.storyboard */; };
 		189401661BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189401651BF7CB0600FCF46E /* WideAwake_PuzzleTests.swift */; };
 		189401711BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189401701BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift */; };
+		1894017F1BF7CD8600FCF46E /* iPhone Assets in Resources */ = {isa = PBXBuildFile; fileRef = 1894017E1BF7CD8600FCF46E /* iPhone Assets */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1894016C1BF7CB0600FCF46E /* WideAwake PuzzleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WideAwake PuzzleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		189401701BF7CB0600FCF46E /* WideAwake_PuzzleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WideAwake_PuzzleUITests.swift; sourceTree = "<group>"; };
 		189401721BF7CB0600FCF46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1894017E1BF7CD8600FCF46E /* iPhone Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "iPhone Assets"; path = "../../iPhone Assets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				189401541BF7CB0600FCF46E /* Main.storyboard */,
 				189401571BF7CB0600FCF46E /* Assets.xcassets */,
 				189401591BF7CB0600FCF46E /* LaunchScreen.storyboard */,
+				1894017E1BF7CD8600FCF46E /* iPhone Assets */,
 				1894015C1BF7CB0600FCF46E /* Info.plist */,
 			);
 			path = "WideAwake Puzzle";
@@ -234,6 +237,7 @@
 				1894015B1BF7CB0600FCF46E /* LaunchScreen.storyboard in Resources */,
 				189401581BF7CB0600FCF46E /* Assets.xcassets in Resources */,
 				189401561BF7CB0600FCF46E /* Main.storyboard in Resources */,
+				1894017F1BF7CD8600FCF46E /* iPhone Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

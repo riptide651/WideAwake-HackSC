@@ -1,27 +1,23 @@
 {
   "images" : [
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Settings_Icon.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "Settings_Icon-4.png",
+      "size" : "29x29",
       "scale" : "3x"
     },
     {
-      "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "Settings_Icon-1.png",
+      "size" : "40x40",
       "scale" : "2x"
     },
     {
-      "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "Settings_Icon-5.png",
+      "size" : "40x40",
       "scale" : "3x"
     },
     {
@@ -30,45 +26,38 @@
       "scale" : "2x"
     },
     {
-      "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "App_Icon_180-1.png",
+      "size" : "60x60",
       "scale" : "3x"
     },
     {
-      "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Settings_Icon-2.png",
+      "size" : "29x29",
       "scale" : "1x"
     },
     {
-      "size" : "29x29",
       "idiom" : "ipad",
-      "filename" : "Settings_Icon-3.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
-      "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "Settings_Icon-6.png",
+      "size" : "40x40",
       "scale" : "1x"
     },
     {
-      "size" : "40x40",
       "idiom" : "ipad",
-      "filename" : "Settings_Icon-7.png",
+      "size" : "40x40",
       "scale" : "2x"
     },
     {
-      "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "App_Icon_180-2.png",
+      "size" : "76x76",
       "scale" : "1x"
     },
     {
-      "size" : "76x76",
       "idiom" : "ipad",
-      "filename" : "App_Icon_180-3.png",
+      "size" : "76x76",
       "scale" : "2x"
     }
   ],
