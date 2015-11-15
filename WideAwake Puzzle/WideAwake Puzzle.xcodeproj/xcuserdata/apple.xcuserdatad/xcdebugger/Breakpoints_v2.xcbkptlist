@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "WideAwake Puzzle/ViewController.swift"
-            timestampString = "469243806.416769"
+            timestampString = "469266335.374123"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "startTracking(_:)"
             landmarkType = "5">
             <Locations>
