@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreMotion
+import AudioToolbox
 
 
 class ViewController: UIViewController {
@@ -16,10 +17,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var trackButton: UIButton!
 
     var motionManager: CMMotionActivityManager!
+    var goalMet: Bool!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        goalMet = false
         
         }
         
@@ -27,14 +29,16 @@ class ViewController: UIViewController {
     @IBAction func startTracking(sender: AnyObject) {
         motionManager = CMMotionActivityManager()
         
-        if(CMMotionActivityManager.isActivityAvailable()){
+        if(CMMotionActivityManager.isActivityAvailable() && goalMet == false){
             motionManager.startActivityUpdatesToQueue(NSOperationQueue.mainQueue()) { activity in
                 if (activity!.stationary == true) {
                     self.speedLabel.text = "BUST A MOVE"
                 } else if (activity!.walking == true) {
                     self.speedLabel.text = "DANCE GOAL MET"
+                    self.goalMet = true
                     
-                    let timer: NSTimer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: Selector("segue:"), userInfo: nil, repeats: false)
+                    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+                    let timer: NSTimer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("segue:"), userInfo: nil, repeats: false)
                     
                 }
             }
@@ -44,8 +48,9 @@ class ViewController: UIViewController {
 
     @IBAction func stopTracking(sender: AnyObject) {
         motionManager.stopActivityUpdates()
-        self.speedLabel.text = "BUST A MOVE"
-        
+        if (goalMet == false) {
+            self.speedLabel.text = "BUST A MOVE"
+        }
     }
     
     func segue(timer : NSTimer) {
